@@ -1,7 +1,7 @@
-<div class="fixed h-full flex dark:bg-gray-900 border lg:shadow-sm overflow-hidden inset-0 lg:top-16 lg:inset-x-2 m-auto lg:h-[90%] rounded-lg text-cyan-50">
+<div class="fixed h-full flex dark:bg-gray-900 border-gray-600 lg:shadow-sm overflow-hidden inset-0 lg:top-16 lg:inset-x-2 m-auto lg:h-[90%] rounded-lg text-cyan-50">
 
     <div class="relative w-full md:w-[320px] xl:w-[400px] overflow-auto shrink-0 h-full border">
-        @include('livewire.chat.chat-list')
+        @livewire('chat.chat-list')
     </div>
 
     <div class="hidden md:grid w-full border-l h-full relative overflow-auto" style="contain: content">
